@@ -29,7 +29,7 @@ export const Card = ({content,onDelete,reference}) => {
       <button onClick={handleDelete}><MdDelete /></button>
       </div>
         <p className='mt-5'>{content}</p>
-        <div className='footer absolute bottom-0 bg-green-600 w-full p-6 left-0 flex items-center gap-2 text-white'> {change} <GoSmiley /></div>
+        <div className='footer absolute bottom-0 bg-green-600 w-full p-4 left-0 flex items-center gap-2 text-white'> {change} <GoSmiley /></div>
     </motion.div>
     </>
   )
