@@ -10,7 +10,7 @@ import { FaFire } from "react-icons/fa";
 export const Card = ({content,onDelete,reference}) => {
 
 
-    const [change,setChange] = useState('All Task are important');
+    const [change,setChange] = useState('Your Docs are important');
     const handleDelete = () => {
       console.log("Deleting card...");
       onDelete();
@@ -18,7 +18,7 @@ export const Card = ({content,onDelete,reference}) => {
 
     const important = () =>{
         console.log('Priority Task');
-       setChange('Priroty Task...!!!');
+       setChange('Important Docs...!!!');
     }
 
   return (
